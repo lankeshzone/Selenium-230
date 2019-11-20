@@ -58,9 +58,15 @@ public class webDriverMethods
 		
 		driver.navigate().refresh(); // will refresh the page
 		
+		
+		//Options interface for cookies
 		Set<Cookie> s = driver.manage().getCookies();
 		
 		System.out.println("cookies " + s);
+		
+		
+		
+		
 		
 		//driver.close(); // will close the active window
 		
