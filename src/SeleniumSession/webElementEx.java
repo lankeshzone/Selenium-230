@@ -17,10 +17,12 @@ public class webElementEx {
 		
 		WebElement firstname, male, cricket, skills, submit, refresh;
 		
-		int x;
-		x = 10;
-		
-	/*	firstname = d.findElement(By.xpath("//input[@placeholder='First Name']"));
+		//Identification of elements 
+		skills = d.findElement(By.xpath("//select[@id='Skills']"));
+		firstname = d.findElement(By.xpath("//input[@placeholder='First Name']"));
+		submit = d.findElement(By.id("submitbtn"));
+		male = d.findElement(By.xpath("//label[1]//input[1]"));
+		cricket = d.findElement(By.id("checkbox1"));
 		
 		firstname.click(); // clicks on the webelement
 		
@@ -46,22 +48,18 @@ public class webElementEx {
 		
 		firstname.clear();
 		
-		submit = d.findElement(By.id("submitbtn"));
 		
 		submit.submit();
 		
 		refresh = d.findElement(By.id("Button1"));
 		refresh.click();
 		
-		male = d.findElement(By.xpath("//label[1]//input[1]"));
 		male.click();
 		System.out.println("is selected" + male.isSelected());
 		
-		cricket = d.findElement(By.id("checkbox1"));
 		cricket.click();
 		System.out.println("is selected" + cricket.isSelected());*/
 		
-		skills = d.findElement(By.xpath("//select[@id='Skills']"));
 		//Select class -> Multiline/dropdowns
 		
 		Select s = new Select(skills);
