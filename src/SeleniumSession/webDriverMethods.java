@@ -64,14 +64,9 @@ public class webDriverMethods
 		
 		System.out.println("cookies " + s);
 		
-		
-		
-		
-		
 		//driver.close(); // will close the active window
 		
 		//driver.quit(); // close the entire browser
-		
 		
 	}
 }
