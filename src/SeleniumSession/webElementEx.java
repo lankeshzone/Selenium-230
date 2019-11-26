@@ -24,7 +24,7 @@ public class webElementEx {
 		male = d.findElement(By.xpath("//label[1]//input[1]"));
 		cricket = d.findElement(By.id("checkbox1"));
 		
-		firstname.click(); // clicks on the webelement
+		firstname.click(); // clicks on the WebElement
 		
 		System.out.println(" Attribute " + firstname.getAttribute("type"));
 		
@@ -58,7 +58,7 @@ public class webElementEx {
 		System.out.println("is selected" + male.isSelected());
 		
 		cricket.click();
-		System.out.println("is selected" + cricket.isSelected());*/
+		System.out.println("is selected" + cricket.isSelected());
 		
 		//Select class -> Multiline/dropdowns
 		
@@ -70,6 +70,7 @@ public class webElementEx {
 		s.selectByValue("C");
 		
 		s.deselectByValue("C");
+		
 	}
 
 }
