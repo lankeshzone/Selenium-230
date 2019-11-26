@@ -16,14 +16,14 @@ public class elementIdentification {
 		
 		driver.manage().window().maximize();
 		
-		//username
+		//id - username
 		
 		WebElement username;
 		username = driver.findElement(By.id("username"));
 		username.sendKeys("lankeshzone@gmail.com");
 		System.out.println("Location of username " + username.getLocation());
 		
-		//session_password
+		//name - session_password
 		
 		WebElement pwd;
 		By locator;
