@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 public class verifyassert {
 
@@ -20,8 +21,10 @@ public class verifyassert {
 		
 		String actualMessage = header.getText();
 		
+		SoftAssert s = new SoftAssert();
 		
-		Assert.fail("Iam failing");
+		
+		//Assert.fail("Iam failing");
 		
 		//Verification -- SoftAssertion
 		if (actualMessage.equals(expectedMessage))
@@ -39,7 +42,7 @@ public class verifyassert {
 		Assert.fail(message); // explicit fail of the script
 		
 		*/
-		
+				
 		Assert.assertNotEquals(actualMessage, expectedMessage);
 		
 		Assert.assertFalse(!header.isDisplayed());
