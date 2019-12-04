@@ -15,7 +15,7 @@ public class actionsExample {
 	{
 		WebDriver driver = new FirefoxDriver();
 		
-		driver.get("http://automationpractice.com/index.php?id_category=5&controller=category");
+	/*	driver.get("http://automationpractice.com/index.php?id_category=5&controller=category");
 		
 		WebElement slider;
 		slider = driver.findElement(By.xpath("//div[@class='layered_price']//a[1]"));
@@ -34,7 +34,12 @@ public class actionsExample {
 	
 		Action a = act.dragAndDropBy(slider, 100,0).build();
 		
-		a.perform();
+		a.perform();*/
+		
+		driver.get("http://demo.automationtesting.in/Youtube.html");
+		
+		driver.findElement(By.xpath("//div[@class='col-xs-9 col-xs-offset-3']")).click();
+		
 	}
 
 }

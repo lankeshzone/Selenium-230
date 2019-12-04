@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="SelLibs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="SelLibs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="SelLibs/okio-1.14.0.jar"/>
+	<classpathentry kind="src" path="/DilipSelenium"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
