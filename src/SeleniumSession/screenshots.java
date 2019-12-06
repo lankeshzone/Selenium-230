@@ -18,10 +18,13 @@ public class screenshots {
 			
 		// f = new File("D://Test//selenium230.png");
 		
+		//takesscreenshot is used to take the snapshot of the current active page
 		TakesScreenshot screenshot = (TakesScreenshot)driver;
 		
+		//file is used to get the object of captured file
 		File f = screenshot.getScreenshotAs(OutputType.FILE);
 		
+		//COpy is used to store the file in a specified location
 		FileUtils.copyFile(f,new File("D://Test//Century12345.png"));
 		
 	}
