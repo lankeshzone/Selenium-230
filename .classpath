@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="SelLibs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="SelLibs/okio-1.14.0.jar"/>
 	<classpathentry kind="src" path="/DilipSelenium"/>
+	<classpathentry kind="lib" path="/PageObjectPageFactory/lib/commons-io-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
@@ -23,8 +24,7 @@ public class verifyassert {
 		
 		SoftAssert s = new SoftAssert();
 		
-		
-		//Assert.fail("Iam failing");
+		//Assert.fail("I am failing");
 		
 		//Verification -- SoftAssertion
 		if (actualMessage.equals(expectedMessage))
@@ -34,6 +34,7 @@ public class verifyassert {
 			System.out.println("Message does not match " + actualMessage);
 	
 		}
+		
 	/*	Assert.assertEquals(, expected); // compare any two items for euality
 		Assert.assertNotEquals(); //
 		Assert.assertFalse(condition); //condition is checked with false
