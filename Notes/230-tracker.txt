@@ -1,0 +1,17 @@
+IDE
+WebDriver
+  Interfaces (Navigation/Options/TargetLocator/Timeouts/Windows)
+WebElement
+  Identification/Status/Get-methods/basi actions
+Locators 
+  findElement(s)/X-paths/Javascriptexecutor(redo)
+Actions 
+  Browser/WebElements/Actionsclass / Selector class
+
+Verify/Assertions 
+
+Windows/Frames/Alerts
+Waits -
+Selenium Exception (32)
+
+TestNG

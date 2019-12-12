@@ -6,6 +6,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Notes"/>
 	<classpathentry kind="lib" path="SelLibs/byte-buddy-1.8.15.jar"/>
 	<classpathentry kind="lib" path="SelLibs/client-combined-3.141.5.jar"/>
 	<classpathentry kind="lib" path="SelLibs/commons-exec-1.3.jar"/>
