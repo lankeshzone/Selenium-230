@@ -17,11 +17,7 @@ package classFile;
 
 	public class Master_Listener implements ITestListener
 	{
-		static WebDriver driver;
-		/*public Master_Listener(WebDriver driver)
-		{
-			driver = this.driver;
-		}*/
+		
 
 		 public void onTestFailure(ITestResult result) 
 	     {
