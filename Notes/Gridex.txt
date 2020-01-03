@@ -1,0 +1,14 @@
+Step - 1
+--> Execute the server jar file in the hub mode...
+Java -jar "<filename>" -role hub
+java -jar "selenium-server-standalone-3.141.59.jar" -role hub
+
+Step-2
+--> Execute the server jar file in node mode...
+Java -jar "<filename>" -role node -hub <path>
+
+java -jar "selenium-server-standalone-3.141.59.jar" -role node -hub http://192.168.1.10:4444/grid/register/
+
+
+Step-3
+--> Run the script using RemoteWebDriver...
