@@ -8,26 +8,33 @@ package PageObject;
 
 	public class HomePage {
 		
+		static WebDriver driver; //class homepage driver
+		
+		public HomePage(WebDriver driver) //testcase
+		{
+		this.driver = driver;	
+		}
+		
 		//Top Menu//
-	    public WebElement Signon_click(WebDriver driver,String locatorType,String locatorValue)
+	    public WebElement Signon_click(String locatorType,String locatorValue)
 	    {
 	     WebElement signon=driver.findElement(By.linkText("SIGN-ON"));
 	     return signon;
 	    }
 	    
-	    public WebElement Register_click(WebDriver driver,String locatorType,String locatorValue)
+	    public WebElement Register_click(String locatorType,String locatorValue)
 	    {
 	    	WebElement register=driver.findElement(By.linkText("REGISTER"));
 	    	return register;
 	    }
 	    
-	    public WebElement Support_click(WebDriver driver,String locatorType,String locatorValue)
+	    public WebElement Support_click(String locatorType,String locatorValue)
 	    {
 	    	WebElement support=driver.findElement(By.linkText("SUPPORT"));
 	    	return support;
 	    }
 	    
-	    public WebElement Contact_click(WebDriver driver,String locatorType,String locatorValue)
+	    public WebElement Contact_click(String locatorType,String locatorValue)
 	    {
 	    	WebElement contact=driver.findElement(By.linkText("CONTACT"));
 	    	return contact;
