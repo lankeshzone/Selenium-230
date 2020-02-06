@@ -33,6 +33,8 @@ public class collectionExample
 		a1.add(200);
 		a1.add(345);
 		
+
+		
 		//object type
 		ArrayList<Object> a4 = new ArrayList<Object>();
 		a4.add("Deepika");
