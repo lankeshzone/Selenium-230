@@ -18,7 +18,7 @@ public class getSet
 		return x;
 	}
 
-	public void m1()
+	public void m10()
 	{
 		
 	}
