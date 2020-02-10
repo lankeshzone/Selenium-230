@@ -19,6 +19,11 @@ public class C2 extends child
 	}
 
 	
+	public static String m5()
+	{
+		return "test";
+	}
+	
 	public void m2()
 	{
 		System.out.println("Iam m2 in child-2");

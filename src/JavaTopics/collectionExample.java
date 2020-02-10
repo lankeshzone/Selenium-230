@@ -3,6 +3,7 @@ package JavaTopics;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.PriorityQueue;
 
 public class collectionExample 
@@ -12,6 +13,9 @@ public class collectionExample
 	{	
 		child c= new child();
 
+		
+			
+		
 		HashSet<Character> hs1 = new HashSet<Character>();
 		
 		PriorityQueue<Integer> p1 = new PriorityQueue<Integer>();
