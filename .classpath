@@ -7,13 +7,13 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Notes"/>
+	<classpathentry kind="lib" path="/PageObjectPageFactory/lib/commons-io-2.6.jar"/>
 	<classpathentry kind="lib" path="SelLibs/byte-buddy-1.8.15.jar"/>
 	<classpathentry kind="lib" path="SelLibs/client-combined-3.141.5.jar"/>
 	<classpathentry kind="lib" path="SelLibs/commons-exec-1.3.jar"/>
 	<classpathentry kind="lib" path="SelLibs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="SelLibs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="SelLibs/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="/PageObjectPageFactory/lib/commons-io-2.6.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
